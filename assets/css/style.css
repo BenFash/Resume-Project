@@ -15,7 +15,7 @@
 }
 
 .bg-color-work-history {
-    background-color: #9b59b6;
+    background-color: #F29CA3;
 }
 
 .bg-color-contact {
@@ -23,22 +23,22 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #F7C548;
 }
 
 .ui-menu-color-resume {
-    background-color: #9b59b6;
+    background-color: #F29CA3;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #92DCE5;
 }
 
 .ui-menu-color-download {
     background-color: #525252;
 }
 
-/* ------------------------------------------ Speical padding/margin/text*/
+/* ------------------------------------------ Special padding/margin/text*/
 
 h1,
 h2,
@@ -71,8 +71,6 @@ h4 {
     float: none;
 }
 
-.history-heading {}
-
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -95,6 +93,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 260px;
+    max-height: 360px;
+    max-width: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -197,7 +197,7 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    color: #F7C548;
 }
 
 .social-links {
@@ -221,7 +221,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background-color: #e84610;
+    background-color: #F7C548;
 }
 
 #footer-details {
@@ -232,7 +232,7 @@ footer {
 
 .three-reasons-icon {
     font-size: 26px;
-    color: #e67e22;
+    color: #F7C548;
 }
 
 .three-reasons-heading {
@@ -381,21 +381,6 @@ button[type="submit"] {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
-    }
-
-    .logo {
-        background: url("../css/images/beard-1781443_1280.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        min-height: 260px;
-        transition: all .5s ease-in-out;
-        -moz-transition: all .5s ease-in-out;
-        -webkit-transition: all .5s ease-in-out;
-        padding-top: 500px;
-        margin: 0 auto;
-        max-height: 360px;
-        max-width: 360px;
     }
 
 }
